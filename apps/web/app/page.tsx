@@ -6,7 +6,7 @@ export default function HomePage() {
     <AppShell active="overview">
       <PageHeading
         eyebrow="Visão geral"
-        title="Tudo sob controle."
+        title="Tudo sob controle..."
         description="Acompanhe o que está acontecendo na operação hoje."
         action={<PrimaryButton>+ Novo pedido</PrimaryButton>}
       />
