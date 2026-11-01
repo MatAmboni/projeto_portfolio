@@ -47,7 +47,9 @@ Para cada funcionalidade:
 4. Abrir um Pull Request com contexto, screenshots quando houver UI e testes executados.
 5. Fazer revisão e integrar em `develop`; somente releases chegam à `main`.
 
-## Próximo passo
+## Status da interface
 
-A próxima feature recomendada é o módulo de produtos: migration Prisma, endpoints
-`POST /products` e `GET /products`, validação com DTOs e uma tela de listagem no Next.js.
+O painel web já possui as telas operacionais de visão geral, vendas, estoque, clientes,
+financeiro e preferências, com dados demonstrativos e navegação responsiva. O próximo passo
+é conectar essas telas à API: migration Prisma, endpoints `POST /products` e `GET /products`,
+validação com DTOs e persistência dos dados reais.
